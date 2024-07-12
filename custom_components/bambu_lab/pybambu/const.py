@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 
 from enum import (
     Enum,
@@ -111,11 +112,11 @@ PRINT_TYPE_OPTIONS = {
 
 
 def load_dict(filename: str) -> dict:
-    with open(filename) as f:
+    with open(os.path.join(os.path.dirname(__file__), filename)) as f:
         return json.load(f)
 
 
-FILAMENT_NAMES = load_dict("./filaments.json")
+FILAMENT_NAMES = load_dict("filaments.json")
 
 # UNIQUE_ID=dAa5VFRi
 HMS_ERRORS = {
