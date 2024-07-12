@@ -1,5 +1,8 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
+> [!IMPORTANT]
+> This is a temporary fork of the original [ha-bambulab](https://github.com/greghesp/ha-bambulab) consolidating all open pull requests in a convenient place to experiment with them.
+
 # Bambu Lab
 
 A Home Assistant Integration for Bambu Lab printers.
@@ -17,7 +20,7 @@ If you feel this integration was valuable and want to support it in other ways, 
 
 ## Setup
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=greghesp&repository=ha-bambulab&category=Integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=t3chguy&repository=ha-bambulab&category=Integration)
 
 To install this integration, add this GitHub Repo to the HACS Custom Repositories, or click the badge above.
 
